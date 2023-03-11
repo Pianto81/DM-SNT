@@ -1,0 +1,152 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(9, 9, 66);
+}
+
+p{
+    color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 200%;
+    text-align: justify;
+    padding: 5px;
+    margin: 7px;
+}
+
+
+.Titre1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cadetblue;
+    text-align: center;
+    font-size: 250%;
+}
+
+.Titre2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cadetblue;
+    text-decoration: underline dashed;
+
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: row;
+}
+
+.bandeau{
+    justify-content: center;
+    background-image: url('images/Bandeau2.png');
+    background-size: cover;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+ul{
+    color: cadetblue;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li{
+    color: aliceblue;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 5%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.historique{
+    background-image: url('images/fond.png');
+    background-size: cover;
+    display: flex;
+    border-radius: 5px;
+}
+
+input{
+    background-color: black;
+    color: greenyellow;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color:greenyellow;
+    border-radius: 5px;
+    animation: reveal 3s;
+}
+
+@keyframes reveal {
+    0%{height: 0px;}
+    100%{height: 185px;}
+}
+
+.question-container{
+    margin: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.result{
+    margin: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.option-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;   
+}
+
+.option{   
+    width: 100%;
+    font-size: larger;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.option:hover{
+    background-color: navy;
+}
+
+.navigation{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.evaluate,.next{ 
+    font-size: larger;
+    width: 100%;
+}
+
+.evaluate{
+    background-color: #50DBB4;
+}
+
+.next{
+    color: white;
+    background-color: #BF3325;
+}

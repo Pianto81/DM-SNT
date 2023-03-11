@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+         <!--Titre et icone de la page-->
+        <link rel="icon" href="https://em-content.zobj.net/thumbs/120/noto-emoji/343/ringed-planet_1fa90.jpg">
+        <title>Katie Bouman - biographie</title>
+    </head>
+
+    <body>
+        <!--Bandeau de titre avec retour à la page principale-->
+            <h1 class="Titre1 bandeau"><a href="index.html"><img src="images/fleche.png" width="30px" height="30px"></a> <u><b>Biographie & Dates importantes</b></u></h1>
+
+        <div class="historique">
+            <ul>
+                <span class="Titre2">Dates</span>
+                <li><b>9 mai 1989 :</b> Naissance à West Lafayette dans l'Indiana</li>
+                <li><b>2011 :</b> obtention d'un “Bachelor of Science in Engineering” à l’Université du Michigan.</li>
+                <li><b>2013 :</b> master en sciences soutuenue au M.I.T, <i>"Estimating Material Properties of Fabric through the observation of Motion"</i>.</li>
+                <li><b>2016-2017 :</b> devient responsable du CHIRP pour la reconstitution d'une image de tou noir.</li>
+                <li><b>2017 :</b> thèse de doctorat <i>"Extreme imaging via physical model inversion: seeing around corners and imaging black holes"</i> sous la direction de Willian T. Freeman</li>
+                <li><b>10 avril 2019 :</b> publication de la première image du trou noir M87*.</li>
+            </ul>
+
+        </div>
+        <!--Préparation quiz javascript-->
+        <input type="button" value="cliquer pour faire apparaître un QCM" onclick="reveal()">
+        <div id="console" class="hide">
+                <div class="result">
+         
+                </div>
+                <div class="question-container" id="question">
+                    Question goes here.
+                </div>
+                <div class="option-container">
+                    <button class="option" onclick="" id="op1" >option1</button>
+             
+                    <button class="option" id="op2" >option2</button>
+             
+                    <button class="option" id="op3">option3</button>
+             
+                    <button class="option" id="op4">option4</button>
+                </div>
+                <div class="navigation">
+                    <button class="evaluate" >Envoyer</button>
+                    <button class="next">Suivant</button>
+                </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
