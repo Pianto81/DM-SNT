@@ -21,7 +21,7 @@ const Questions = [{
     q: "Quel est le jour de publication de la première image d'un trou noir ?",
     a: [{ text: "10 septembre 2015", isCorrect: false, isSelected: false },
         { text: "10 avril 2019 ", isCorrect: true },
-        { text: "", isCorrect: false },
+        { text: "15 janvier 2020", isCorrect: false },
         { text: "23 septembre 2018", isCorrect: false }
     ]
 
